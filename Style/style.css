@@ -1,0 +1,23 @@
+:root{
+    /*Variables*/
+    --letraCnav: #22222b;
+    --fondoNav: rgba(133, 73, 106, 0.5);
+    --gray: rgba(100, 73, 89, 0.5);
+    --letra:  'Fuzzy Bubbles', cursive;
+    --letraTitulo: Helvetica;
+    --fondo: #ac6291;
+   
+}
+body{
+    width: 100%;
+    font-family: var(--letra);
+
+}
+header {
+    background: var(--fondo);
+
+}
+
+footer{
+    text-align: center;
+}

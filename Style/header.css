@@ -1,0 +1,44 @@
+.navColor {
+   color: var(--letraCnav);
+   background: var(--fondoNav);
+   font-family: var(--letra);
+    
+}
+.titulo{
+    display:flex;
+    align-items: center;
+    width:70%;
+    height:calc(100vh - 50px);
+    margin-left: 15%;
+    
+}
+.inicio{ 
+    font-family:var(--letra);
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--nav);
+    text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+.avatar{
+    background: url(../Imagen/Avatar-Maker.svg) no-repeat;
+    background-size: cover;
+    width:25rem;
+    height:10rem;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+@media screen and (min-width:768px) {
+    .avatar{
+        width: 15rem;
+        height: 15rem;
+    }
+    .inicio{
+        font-size:20rem;
+    }
+}
