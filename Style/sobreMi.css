@@ -4,16 +4,15 @@
     flex-direction:column;
     width: 90%;
     text-align: center;
-    justify-content: center;
+   justify-content: center;
     align-items: center;
-    margin: 0% 0 1% 5% ;
-    padding:20px;
+    margin: 2% 0 1% 5%;
+    
     box-shadow: 27px 10px 152px -33px var(--fondo);
 -webkit-box-shadow: 27px 10px 152px -33px var(--fondo);
 -moz-box-shadow: 27px 10px 152px -33px var(--fondo);
 }
 .tituloSobreMi{
-    
     text-align: center;
     font-size:2.45rem;
     padding-top: 55px;
@@ -21,11 +20,9 @@
    
 }
 .descarga{
-   
     color: rgb(3, 3, 3);
     font-size: 1.35rem;
     font-weight: bold;
-    
     border: var(--fondo) solid 3px;
     padding: 10px;
     border-radius: 10px;    

@@ -1,11 +1,11 @@
 :root{
     /*Variables*/
     --letraCnav: #22222b;
-    --fondoNav: rgba(133, 73, 106, 0.5);
+    --fondoNav: rgba(173, 69, 194, 0.5);
     --gray: rgba(100, 73, 89, 0.5);
     --letra:  'Fuzzy Bubbles', cursive;
     --letraTitulo: Helvetica;
-    --fondo: #ac6291;
+    --fondo: #e28aee;
    
 }
 body{
