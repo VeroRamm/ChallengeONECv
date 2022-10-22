@@ -6,7 +6,7 @@
 -moz-box-shadow: 27px 10px 152px -33px var(--fondo);
 }
 .trabajos div{
-    margin-right: 5%;
+    margin: 2% 0 1% 5%;
     -webkit-border-top-left-radius: 700px;
     -webkit-border-top-right-radius: 1000px;
     -webkit-border-bottom-right-radius: 80px;
@@ -38,7 +38,7 @@
     .trabajos {
         display:grid;
         grid-template-columns: 1fr 1fr;
-        margin:5rem;
+        
     }
 
     .trabajos img{
